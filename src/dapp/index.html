@@ -1,0 +1,101 @@
+<!-- This UI web page template got recycled from project 5 and extended to support testing the current project -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flight Insuarnce</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <h1>Flight Insuarnce</h1>
+
+    <hr />
+    <br />
+    <h1>Check Flight Status</h1>
+    <div>
+      <label class="form"></label>
+      Airline:
+      <select id="Airline1" class="Airline"> </select>
+      Flight No:
+      <select id="Flight1">
+        <option value="1000">1000</option>
+        <option value="2000">2000</option>
+        <option value="3000">3000</option>
+        <option value="4000">4000</option>
+      </select>
+      Departure Time:
+      <select id="Departure1">
+        <option value="600">0600</option>
+        <option value="900">0900</option>
+        <option value="1200">1200</option>
+        <option value="1800">1800</option>
+      </select>
+      <button id="Go1">Check</button>
+    </div>
+    <br />
+
+    <span id="details1"></span><br />
+
+    <hr />
+    <br />
+
+    <h1>Buy Insurance on Flight</h1>
+    <div>
+      <label class="form"></label>
+      Airline:
+      <select id="Airline2" class="Airline"> </select>
+      Flight No:
+      <select id="Flight2">
+        <option value="1000">1000</option>
+        <option value="2000">2000</option>
+        <option value="3000">3000</option>
+        <option value="4000">4000</option>
+      </select>
+      Departure Time:
+      <select id="Departure2">
+        <option value="600">0600</option>
+        <option value="900">0900</option>
+        <option value="1200">1200</option>
+        <option value="1800">1800</option>
+      </select>
+      Enter Price in wei (1 ether Max):
+      <input type="text" id="Price2"></input>
+      <button id="Go2">Buy</button>
+    </div>
+    <br />
+
+    <span id="details2"></span><br />
+
+    <hr />
+    <br />
+
+        <h1>Claim Insurance Policy</h1>
+        <div>
+          <label class="form"></label>
+          Enter Policy Number:
+          <input type="text" id="Policy3"></input>
+          <button id="Go3">Claim</button>
+        </div>
+        <br />
+        
+        <span id="details3"></span><br />
+        
+        <hr />
+        <br />
+            <h1>Withdraw Balance</h1>
+            <div>
+              <label class="form"></label>
+              <button id="Go4">Withdraw</button>
+            </div>
+            <br />
+            
+            <span id="details4"></span><br />
+            
+            <hr />
+            <br />
+            <script src="./index.js"></script>
+</html>
